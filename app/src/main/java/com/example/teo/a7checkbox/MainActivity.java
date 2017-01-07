@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 //Thêm một dòng để in kết quả của tổng tiền
                 result.append("\nTotal : "+totalamount+"Rs");
                 //Displaying the message on the toast
+                //Hiển thị message nội dung của order
                 Toast.makeText(getApplicationContext(), result.toString(), Toast.LENGTH_LONG).show();
 
             }
